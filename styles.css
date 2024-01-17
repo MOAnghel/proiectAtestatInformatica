@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-buttons{
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+    color: black;
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+}
+.header{
+    font-family: Arial;
+    color: black;
+    padding: 14px 16px;
+
+}
+.nav-buttons:hover{
+    background-color: #008000;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+body{
+    margin: 0 ;
+    font-family: Arial;
+}
+nav{
+    overflow: hidden;
+    background-color: #00cc00;
+    font-family: Arial, Helvetica, sans-serif;
+}
+footer{
+    color: white;
+    background-color: #333333;
+    float:inline-start;
+    display: block;
+    text-align: left;
+    padding: 14px 16px;
+    margin: 0;
+}
+.nav-buttons2{
+    font-size: 2rem;
+    background-color: #333333;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    padding: 5px 0;
+}
+.nav-buttons2:hover{
+    background-color: #008000;
+    color:white;
+}
+.column{
+    float: left;
+    width: 50vw;
+    margin-bottom: 10px ;
+    display: block;
+    justify-content: center;
+    align-items: center;
+}
+#text{
+    font-size: 25px;
+    float: left;
+    width: 45vw;
+    padding: 50px 50px 100px 50px;
+    display: block;
+}
+#text2{
+    font-size: 25px;
+    float: left;
+    width: 45vw;
+    padding: 50px 50px 10px 50px;
+    display: block;
+}
+.row:after{
+    content: "";
+    display: table;
+    clear:both;
+    margin-top: 10px;
+}
+.header-bine-ati-venit{
+    background: url(./imagini/pexels-hyundai-motor-group-11482358.jpg);
+    background-size: cover;
+    min-height: 100vh;
+    color: #00cc00 ;
+    font-size: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
